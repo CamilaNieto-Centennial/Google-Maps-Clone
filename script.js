@@ -1,5 +1,5 @@
 mapboxgl.accessToken =
-  "pk.eyJ1Ijoid2ViZGV2c2ltcGxpZmllZCIsImEiOiJja2d1c2x2djAwODE1MnltaGNzeHljcWN4In0.4u6YymF-wOIYpDoUTMcNOQ"
+  "pk.eyJ1Ijoia21pNDQ0NCIsImEiOiJjbDkza2Q3b20wZmR0M25zZzZxM3doMDJkIn0.gj423arvZ2zeVbSRvFvjXA"
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true
@@ -10,7 +10,7 @@ function successLocation(position) {
 }
 
 function errorLocation() {
-  setupMap([-2.24, 53.48])
+  setupMap([-95.33852,29.74422])
 }
 
 function setupMap(center) {
